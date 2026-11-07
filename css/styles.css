@@ -386,9 +386,9 @@ h3 {
 }
 
 .hero__title {
-  font-size: clamp(2.7rem, 6.2vw, 4.5rem);
+  font-size: clamp(2.4rem, 4.8vw, 3.6rem);
   font-weight: 800;
-  line-height: 1.03;
+  line-height: 1.06;
   letter-spacing: -0.045em;
   margin-bottom: 18px;
 }
@@ -398,7 +398,7 @@ h3 {
   font-weight: 500;
   color: var(--muted);
   margin-bottom: 20px;
-  min-height: 2.4em;
+  min-height: 3.6em;
 }
 
 .hero__typewriter {

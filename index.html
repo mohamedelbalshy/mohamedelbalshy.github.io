@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Elbalshy — Freelance Software Engineer</title>
+  <meta name="description" content="Mohamed Elbalshy is a senior Node.js & NestJS backend developer with 7+ years building production SaaS, fintech, and e-commerce systems. Available for hire." />
+  <meta name="author" content="Mohamed Elbalshy" />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Mohamed Elbalshy — Freelance Software Engineer" />
+  <meta property="og:description" content="Senior Node.js & NestJS backend developer with 7+ years building production SaaS, fintech, and e-commerce systems. Available for hire." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mohamedelbalshy.github.io/" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0e14'/%3E%3Ctext x='32' y='42' font-family='Arial, sans-serif' font-size='28' font-weight='700' fill='%2338bdf8' text-anchor='middle'%3EME%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Decorative background: aurora + grid + grain -->
+  <div class="bg-fx" aria-hidden="true">
+    <span class="bg-fx__grid"></span>
+    <span class="bg-fx__orb bg-fx__orb--1"></span>
+    <span class="bg-fx__orb bg-fx__orb--2"></span>
+    <span class="bg-fx__orb bg-fx__orb--3"></span>
+    <span class="bg-fx__noise"></span>
+  </div>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-mark">ME</span>
+        <span class="nav__logo-text">Mohamed&nbsp;Elbalshy</span>
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home" class="nav__link is-active">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#reviews" class="nav__link">Reviews</a></li>
+        <li><a href="https://www.upwork.com/freelancers/~0193a80c676a5e8f9b" target="_blank" rel="noopener" class="nav__link nav__link--cta">Hire Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">👋 Hello, I'm</p>
+          <h1 class="hero__title">Mohamed <span class="text-gradient">Elbalshy</span></h1>
+          <p class="hero__subtitle">
+            Senior Node.js / NestJS Developer — I build
+            <span class="hero__typewriter" id="typewriter"></span>
+          </p>
+
+          <p class="hero__lead">
+            Senior backend developer with 7+ years building production SaaS, fintech, and
+            e-commerce systems — with full-stack range across Next.js and React when you need one
+            person to own the whole build.
+          </p>
+
+          <div class="hero__actions">
+            <a href="https://www.upwork.com/freelancers/~0193a80c676a5e8f9b" target="_blank" rel="noopener" class="btn btn--primary">Hire Me</a>
+            <a href="#projects" class="btn btn--ghost">View My Work</a>
+          </div>
+
+          <div class="hero__socials" aria-label="Social links">
+            <!-- TODO: replace # with your real profile URLs -->
+            <a class="social-link" href="https://github.com/mohamedelbalshy" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.8 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.35.78 1.05.78 2.12 0 1.54-.01 2.78-.01 3.16 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/mohamed-elbalshy-bb694ba8" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a class="social-link" href="https://www.upwork.com/freelancers/~0193a80c676a5e8f9b" target="_blank" rel="noopener" aria-label="Upwork">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.56 13.06c-1.05 0-1.98-.32-2.71-.83l1.26-1.57c.4.26.9.42 1.45.42 1.4 0 2.33-1.02 2.33-2.59s-.93-2.59-2.33-2.59c-1.44 0-2.37 1.04-2.37 2.65 0 .19.01.38.04.56l-1.71-.3c-.06-.26-.09-.53-.09-.81 0-2.67 1.78-4.6 4.22-4.6 2.49 0 4.13 1.82 4.13 4.34 0 2.5-1.67 4.32-4.22 4.32ZM9.96 8.59c.9 0 1.47.37 1.47 1.29v7.6h-1.93v-1.17c-.46.79-1.27 1.32-2.41 1.32-1.9 0-3.3-1.56-3.3-3.78 0-2.23 1.4-3.79 3.3-3.79 1.14 0 1.95.54 2.41 1.33V8.59h.46Zm-2.7 4.83c0 .99.56 1.62 1.35 1.62.81 0 1.4-.66 1.4-1.62s-.59-1.62-1.4-1.62c-.79 0-1.35.63-1.35 1.62Zm7.62-4.25h1.93v1.54c.44-.94 1.22-1.69 2.57-1.69 1.8 0 3.02 1.45 3.02 3.79 0 2.35-1.22 3.8-3.02 3.8-1.35 0-2.13-.75-2.57-1.69v1.54h-1.93V9.17Z"/></svg>
+              <span>Upwork</span>
+            </a>
+            <a class="social-link" href="mailto:mohamedbalshy2014@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7L22 6"/></svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__portrait">
+          <div class="hero__portrait-ring">
+            <img class="hero__portrait-photo" src="assets/me.jpeg" alt="Mohamed Elbalshy" />
+          </div>
+          <div class="hero__badge hero__badge--1">
+            <span class="hero__badge-dot"></span>
+            <span>Available for work</span>
+          </div>
+          <div class="hero__badge hero__badge--2">
+            <span>★ 5.0</span>
+            <span class="hero__badge-sub">Upwork rating</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll down">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </a>
+    </section>
+
+    <!-- ============================================================
+         TECH MARQUEE
+         ============================================================ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__group">
+          <span>Node.js</span><span class="dot">✦</span>
+          <span>NestJS</span><span class="dot">✦</span>
+          <span>TypeScript</span><span class="dot">✦</span>
+          <span>Express</span><span class="dot">✦</span>
+          <span>FastAPI</span><span class="dot">✦</span>
+          <span>PostgreSQL</span><span class="dot">✦</span>
+          <span>MongoDB</span><span class="dot">✦</span>
+          <span>Redis</span><span class="dot">✦</span>
+          <span>Prisma</span><span class="dot">✦</span>
+          <span>GraphQL</span><span class="dot">✦</span>
+          <span>React</span><span class="dot">✦</span>
+          <span>Next.js</span><span class="dot">✦</span>
+          <span>AWS</span><span class="dot">✦</span>
+          <span>Docker</span><span class="dot">✦</span>
+          <span>Kubernetes</span><span class="dot">✦</span>
+          <span>OpenAI</span><span class="dot">✦</span>
+          <span>MCP</span><span class="dot">✦</span>
+          <span>RabbitMQ</span><span class="dot">✦</span>
+        </div>
+        <div class="marquee__group" aria-hidden="true">
+          <span>Node.js</span><span class="dot">✦</span>
+          <span>NestJS</span><span class="dot">✦</span>
+          <span>TypeScript</span><span class="dot">✦</span>
+          <span>Express</span><span class="dot">✦</span>
+          <span>FastAPI</span><span class="dot">✦</span>
+          <span>PostgreSQL</span><span class="dot">✦</span>
+          <span>MongoDB</span><span class="dot">✦</span>
+          <span>Redis</span><span class="dot">✦</span>
+          <span>Prisma</span><span class="dot">✦</span>
+          <span>GraphQL</span><span class="dot">✦</span>
+          <span>React</span><span class="dot">✦</span>
+          <span>Next.js</span><span class="dot">✦</span>
+          <span>AWS</span><span class="dot">✦</span>
+          <span>Docker</span><span class="dot">✦</span>
+          <span>Kubernetes</span><span class="dot">✦</span>
+          <span>OpenAI</span><span class="dot">✦</span>
+          <span>MCP</span><span class="dot">✦</span>
+          <span>RabbitMQ</span><span class="dot">✦</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section__eyebrow">About</p>
+        <h2 class="section__title">A software engineer who <span class="text-gradient">ships</span></h2>
+
+        <div class="about">
+          <div class="about__text">
+            <p>
+              I'm a senior Node.js &amp; NestJS backend developer with 7+ years building production
+              SaaS, fintech, and e-commerce systems — with full-stack range across Next.js and React
+              when you need one person to own the whole build.
+            </p>
+            <p>
+              Most recently I was the sole developer on a fintech payments platform, from zero to
+              production: NestJS/FastAPI backend, Next.js frontend, admin dashboard, and mobile apps.
+              I integrated Stripe, KYC providers, and on-chain transaction tracking via webhooks —
+              reconciling data across multiple systems while keeping balances and transaction state
+              accurate on a live product with real users.
+            </p>
+            <p>
+              I take systems from "it mostly works" to production-grade — clean architecture,
+              reliable integrations, and code that holds up under real usage, not just demos.
+            </p>
+          </div>
+
+          <!-- TODO: verify these numbers against your real Upwork/experience stats -->
+          <dl class="about__stats">
+            <div class="stat">
+              <dt class="stat__value">7+</dt>
+              <dd class="stat__label">Years of experience</dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__value">40+</dt>
+              <dd class="stat__label">Projects delivered</dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__value">100%</dt>
+              <dd class="stat__label">Job success score</dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__value">5.0</dt>
+              <dd class="stat__label">Average rating</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SKILLS
+         ============================================================ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <p class="section__eyebrow">Skills</p>
+        <h2 class="section__title">My <span class="text-gradient">toolbox</span></h2>
+
+        <div class="skills">
+          <!-- TODO: add/remove items to match your current stack. -->
+          <div class="skills__group">
+            <h3 class="skills__heading">Backend</h3>
+            <ul class="skills__list">
+              <li class="skill">Node.js</li>
+              <li class="skill">NestJS</li>
+              <li class="skill">Express.js</li>
+              <li class="skill">TypeScript</li>
+              <li class="skill">Python</li>
+              <li class="skill">FastAPI</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3 class="skills__heading">Frontend</h3>
+            <ul class="skills__list">
+              <li class="skill">Next.js</li>
+              <li class="skill">React.js</li>
+              <li class="skill">TypeScript</li>
+              <li class="skill">HTML &amp; CSS</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3 class="skills__heading">Data &amp; Storage</h3>
+            <ul class="skills__list">
+              <li class="skill">PostgreSQL</li>
+              <li class="skill">MySQL</li>
+              <li class="skill">MongoDB</li>
+              <li class="skill">Prisma</li>
+              <li class="skill">TypeORM</li>
+              <li class="skill">Redis</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3 class="skills__heading">AI &amp; Automation</h3>
+            <ul class="skills__list">
+              <li class="skill">OpenAI API</li>
+              <li class="skill">LLM workflows</li>
+              <li class="skill">MCP servers</li>
+              <li class="skill">Claude Code</li>
+              <li class="skill">AI agents</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3 class="skills__heading">Cloud &amp; DevOps</h3>
+            <ul class="skills__list">
+              <li class="skill">AWS</li>
+              <li class="skill">GCP</li>
+              <li class="skill">Docker</li>
+              <li class="skill">Kubernetes</li>
+              <li class="skill">CI/CD</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3 class="skills__heading">Payments &amp; Messaging</h3>
+            <ul class="skills__list">
+              <li class="skill">Stripe</li>
+              <li class="skill">KYC providers</li>
+              <li class="skill">Webhooks</li>
+              <li class="skill">RabbitMQ</li>
+              <li class="skill">BullMQ</li>
+              <li class="skill">SocketIO</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EXPERIENCE
+         ============================================================ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <p class="section__eyebrow">Experience</p>
+        <h2 class="section__title">Where I've <span class="text-gradient">worked</span></h2>
+        <p class="section__note">Real client engagements from my Upwork history — company, country, rate, and total earned on each.</p>
+
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Oct 2026 — Nov 2026</span>
+                <span class="timeline__tag timeline__tag--fixed">Fixed price</span>
+              </div>
+              <h3 class="timeline__role">Senior NestJS Backend / Technical Lead — FlixBag MVP Stabilization</h3>
+              <p class="timeline__company">FlixBag</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Rate</span> Fixed price</li>
+                <li><span class="k">Earned</span> $230</li>
+              </ul>
+              <p class="timeline__desc">Technical assessment, MVP stabilization, and feature completion in NestJS over a 3-week engagement.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">May 2024 — Nov 2025</span>
+                <span class="timeline__tag timeline__tag--fixed">Fixed price</span>
+              </div>
+              <h3 class="timeline__role">Node.js Backend Developer (Full-Time, Remote)</h3>
+              <p class="timeline__company">Servstore</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> Saudi Arabia</li>
+                <li><span class="k">Rate</span> Fixed price</li>
+                <li><span class="k">Earned</span> $8,000</li>
+              </ul>
+              <p class="timeline__desc">Long-term remote role — design, implementation, and maintenance of a Node.js backend.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Dec 2024 — May 2025</span>
+                <span class="timeline__tag timeline__tag--hourly">Hourly</span>
+              </div>
+              <h3 class="timeline__role">Senior Nest.js Backend Developer</h3>
+              <p class="timeline__company">BRB APP INC</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> United States</li>
+                <li><span class="k">Rate</span> $25/hr</li>
+                <li><span class="k">Earned</span> $12,066.60</li>
+              </ul>
+              <p class="timeline__desc">Senior NestJS backend development on a long-running contract.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Jan 2023 — May 2025</span>
+                <span class="timeline__tag timeline__tag--hourly">Hourly</span>
+              </div>
+              <h3 class="timeline__role">NodeJS Backend Developer (Jest)</h3>
+              <p class="timeline__company">Stealth. Startup</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> India</li>
+                <li><span class="k">Rate</span> $22/hr</li>
+                <li><span class="k">Earned</span> $8,213.35</li>
+              </ul>
+              <p class="timeline__desc">Backend development with Jest testing for a long-term client.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Mar 2024 — Mar 2025</span>
+                <span class="timeline__tag timeline__tag--hourly">Hourly</span>
+              </div>
+              <h3 class="timeline__role">Back End Developer</h3>
+              <p class="timeline__company">Gator Shopping</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> United States</li>
+                <li><span class="k">Rate</span> $28.94/hr</li>
+                <li><span class="k">Earned</span> $4,458.67</li>
+              </ul>
+              <p class="timeline__desc">Backend engineering including DevOps and system architecture.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Oct 2023 — Mar 2024</span>
+                <span class="timeline__tag timeline__tag--fixed">Fixed price</span>
+              </div>
+              <h3 class="timeline__role">NodeJS Developer (Writing Experience)</h3>
+              <p class="timeline__company">Ian Kerins</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> Ireland</li>
+                <li><span class="k">Rate</span> Fixed price</li>
+                <li><span class="k">Earned</span> $400</li>
+              </ul>
+              <p class="timeline__desc">Node.js development engagement with a technical writing component.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Sep 2023</span>
+                <span class="timeline__tag timeline__tag--fixed">Fixed price</span>
+              </div>
+              <h3 class="timeline__role">Product Testing &amp; User Feedback — hubql.com</h3>
+              <p class="timeline__company">Meixner Ventures UG</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> Germany</li>
+                <li><span class="k">Rate</span> Fixed price</li>
+                <li><span class="k">Earned</span> $60</li>
+              </ul>
+              <p class="timeline__desc">Testing and user feedback for hubql.com.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Nov 2022 — Aug 2023</span>
+                <span class="timeline__tag timeline__tag--fixed">Fixed price</span>
+              </div>
+              <h3 class="timeline__role">GraphQL Developer</h3>
+              <p class="timeline__company">Confidential client</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> Germany</li>
+                <li><span class="k">Rate</span> Fixed price</li>
+                <li><span class="k">Earned</span> $200</li>
+              </ul>
+              <p class="timeline__desc">Built the project backend with GraphQL, delivering on time.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Jan 2023 — Apr 2023</span>
+                <span class="timeline__tag timeline__tag--hourly">Hourly</span>
+              </div>
+              <h3 class="timeline__role">Nest.js Developer</h3>
+              <p class="timeline__company">Asen Pons Miralles</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> Spain</li>
+                <li><span class="k">Rate</span> $30/hr</li>
+                <li><span class="k">Earned</span> $790.10</li>
+              </ul>
+              <p class="timeline__desc">Nest.js backend development.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Nov 2022</span>
+                <span class="timeline__tag timeline__tag--fixed">Fixed price</span>
+              </div>
+              <h3 class="timeline__role">Back end NodeJS Expert</h3>
+              <p class="timeline__company">Consap Pte Ltd</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> Singapore</li>
+                <li><span class="k">Rate</span> Fixed price</li>
+                <li><span class="k">Earned</span> $300</li>
+              </ul>
+              <p class="timeline__desc">Backend Node.js feature delivery.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Dec 2021 — Mar 2022</span>
+                <span class="timeline__tag timeline__tag--hourly">Hourly</span>
+              </div>
+              <h3 class="timeline__role">Backend API Developer (Mobile)</h3>
+              <p class="timeline__company">Laboratory A</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> Poland</li>
+                <li><span class="k">Rate</span> $15/hr</li>
+                <li><span class="k">Earned</span> $325</li>
+              </ul>
+              <p class="timeline__desc">Designed and built a backend API for a mobile client.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Jan 2022</span>
+                <span class="timeline__tag timeline__tag--hourly">Hourly</span>
+              </div>
+              <h3 class="timeline__role">Backend Scripting (JSON → API)</h3>
+              <p class="timeline__company">Redman Technologies INC</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> Canada</li>
+                <li><span class="k">Rate</span> $25/hr</li>
+                <li><span class="k">Earned</span> $45.83</li>
+              </ul>
+              <p class="timeline__desc">Scripted JSON transformation and posting to an API.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <span class="timeline__period">Sep 2021 — Dec 2021</span>
+                <span class="timeline__tag timeline__tag--hourly">Hourly</span>
+              </div>
+              <h3 class="timeline__role">Backend Developer (1–2 months)</h3>
+              <p class="timeline__company">Reaction HUB</p>
+              <ul class="timeline__meta">
+                <li><span class="k">Country</span> Romania</li>
+                <li><span class="k">Rate</span> $15/hr</li>
+                <li><span class="k">Earned</span> $412.50</li>
+              </ul>
+              <p class="timeline__desc">Short-term backend development engagement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECTS
+         ============================================================ -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <p class="section__eyebrow">Projects</p>
+        <h2 class="section__title">Selected <span class="text-gradient">work</span></h2>
+
+        <div class="projects">
+          <!-- TODO: add project screenshots and set real "Live" URLs. Some repos may be private — point "Code" at the right repo or remove it if N/A. -->
+          <article class="project">
+            <div class="project__thumb project__thumb--1" aria-hidden="true">
+              <span>Project preview</span>
+            </div>
+            <div class="project__body">
+              <h3 class="project__title">Fintech Payments Platform</h3>
+              <p class="project__desc">
+                Solo full-stack build: NestJS/FastAPI backend, Next.js frontend, and mobile apps.
+                Stripe, KYC, and webhook reconciliation on a live product.
+              </p>
+              <ul class="project__tags">
+                <li>NestJS</li>
+                <li>Next.js</li>
+                <li>Stripe</li>
+                <li>PostgreSQL</li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/mohamedelbalshy" target="_blank" rel="noopener">Code</a>
+                <a href="#" target="_blank" rel="noopener">Live</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__thumb project__thumb--2" aria-hidden="true">
+              <span>Project preview</span>
+            </div>
+            <div class="project__body">
+              <h3 class="project__title">E-commerce Marketplace</h3>
+              <p class="project__desc">
+                Full backend ownership: system design, deployment, DB design, and an OpenAI-powered
+                product search.
+              </p>
+              <ul class="project__tags">
+                <li>Node.js</li>
+                <li>OpenAI</li>
+                <li>PostgreSQL</li>
+                <li>Redis</li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/mohamedelbalshy" target="_blank" rel="noopener">Code</a>
+                <a href="#" target="_blank" rel="noopener">Live</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__thumb project__thumb--3" aria-hidden="true">
+              <span>Project preview</span>
+            </div>
+            <div class="project__body">
+              <h3 class="project__title">E-commerce Platform</h3>
+              <p class="project__desc">
+                2 years as backend engineer on a live production system — stabilizing and scaling a
+                platform with real customers.
+              </p>
+              <ul class="project__tags">
+                <li>NestJS</li>
+                <li>TypeScript</li>
+                <li>AWS</li>
+                <li>Docker</li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/mohamedelbalshy" target="_blank" rel="noopener">Code</a>
+                <a href="#" target="_blank" rel="noopener">Live</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects__more">
+          <a href="https://github.com/mohamedelbalshy" target="_blank" rel="noopener" class="btn btn--ghost">
+            See more on GitHub
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         REVIEWS / TESTIMONIALS
+         ============================================================ -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <p class="section__eyebrow">Reviews</p>
+        <h2 class="section__title">What clients <span class="text-gradient">say</span></h2>
+        <p class="reviews__lead">
+          Real feedback from clients on Upwork.
+          <a href="https://www.upwork.com/freelancers/~0193a80c676a5e8f9b" target="_blank" rel="noopener">View my full profile →</a>
+        </p>
+
+        <!-- TODO: save your screenshots as assets/reviews/review-01.png … review-15.png -->
+        <div class="gallery" id="gallery">
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-01.png" alt="Upwork client review 1" loading="lazy" />
+            <figcaption>Upwork review 1</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-02.png" alt="Upwork client review 2" loading="lazy" />
+            <figcaption>Upwork review 2</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-03.png" alt="Upwork client review 3" loading="lazy" />
+            <figcaption>Upwork review 3</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-04.png" alt="Upwork client review 4" loading="lazy" />
+            <figcaption>Upwork review 4</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-05.png" alt="Upwork client review 5" loading="lazy" />
+            <figcaption>Upwork review 5</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-06.png" alt="Upwork client review 6" loading="lazy" />
+            <figcaption>Upwork review 6</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-07.png" alt="Upwork client review 7" loading="lazy" />
+            <figcaption>Upwork review 7</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-08.png" alt="Upwork client review 8" loading="lazy" />
+            <figcaption>Upwork review 8</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-09.png" alt="Upwork client review 9" loading="lazy" />
+            <figcaption>Upwork review 9</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-10.png" alt="Upwork client review 10" loading="lazy" />
+            <figcaption>Upwork review 10</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-11.png" alt="Upwork client review 11" loading="lazy" />
+            <figcaption>Upwork review 11</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-12.png" alt="Upwork client review 12" loading="lazy" />
+            <figcaption>Upwork review 12</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-13.png" alt="Upwork client review 13" loading="lazy" />
+            <figcaption>Upwork review 13</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-14.png" alt="Upwork client review 14" loading="lazy" />
+            <figcaption>Upwork review 14</figcaption>
+          </figure>
+          <figure class="review-thumb">
+            <img src="assets/reviews/review-15.png" alt="Upwork client review 15" loading="lazy" />
+            <figcaption>Upwork review 15</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         LIGHTBOX (for review screenshots)
+         ============================================================ -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Review screenshot" hidden>
+      <button class="lightbox__close" id="lightbox-close" aria-label="Close">&times;</button>
+      <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Previous review">&#8249;</button>
+      <img class="lightbox__img" id="lightbox-img" src="" alt="" />
+      <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Next review">&#8250;</button>
+      <div class="lightbox__counter" id="lightbox-counter"></div>
+    </div>
+
+    <!-- ============================================================
+         CONTACT
+         ============================================================ -->
+    <section class="section section--cta" id="contact">
+      <div class="container contact">
+        <p class="section__eyebrow">Contact</p>
+        <h2 class="section__title">Let's build something <span class="text-gradient">together</span></h2>
+        <p class="contact__lead">
+          Have a project in mind, or need an engineer on your team? I'm currently available for new
+          freelance work. Reach out and let's talk.
+        </p>
+
+        <div class="contact__actions">
+          <a href="mailto:mohamedbalshy2014@gmail.com" class="btn btn--primary">Email Me</a>
+          <a href="https://www.upwork.com/freelancers/~0193a80c676a5e8f9b" target="_blank" rel="noopener" class="btn btn--ghost">Hire on Upwork</a>
+        </div>
+
+        <!-- TODO: fill in your real links -->
+        <div class="contact__links">
+          <a href="https://github.com/mohamedelbalshy" target="_blank" rel="noopener">github.com/mohamedelbalshy</a>
+          <a href="https://www.linkedin.com/in/mohamed-elbalshy-bb694ba8" target="_blank" rel="noopener">linkedin.com/in/mohamed-elbalshy-bb694ba8</a>
+          <a href="https://www.upwork.com/freelancers/~0193a80c676a5e8f9b" target="_blank" rel="noopener">upwork.com/freelancers/~0193a80c676a5e8f9b</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>© <span id="year"></span> Mohamed Elbalshy. All rights reserved.</p>
+      <p class="site-footer__made">Built with care. <a href="#home">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
